@@ -1,0 +1,13 @@
+# 実装時はtemplate_を除去してね
+
+# discordのWebHook情報を記入
+webhook:
+  id: "" # DiscordのWebhookURLの前半部分の数列のとこ
+  token: "" # URLの後半のハッシュっぽいとこ
+
+# twitterAPIで使うヤツ
+twitter:
+  consumer_key: "" # API Key
+  consumer_secret: "" # API Key Secret
+  access_token_key: "" # Access Token
+  access_token_secret: "" # Access Token Secret

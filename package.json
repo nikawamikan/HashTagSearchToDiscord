@@ -1,0 +1,25 @@
+{
+  "name": "todo",
+  "version": "1.0.0",
+  "description": "ToDoというかなんかテスト用",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/scotch-io/node-todo.git"
+  },
+  "author": "nikawa",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/scotch-io/node-todo/issues"
+  },
+  "homepage": "https://github.com/scotch-io/node-todo#readme",
+  "dependencies": {
+    "discord-webhook-node": "^1.1.8",
+    "discord.js": "^13.3.1",
+    "js-yaml": "^4.1.0",
+    "twitter": "^1.7.1"
+  }
+}
