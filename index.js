@@ -23,8 +23,8 @@ const main = async() =>{
     });
     stream.on('error', async error =>{
         await console.log(error);
+        main();
     });
-
 }
 
 main();
